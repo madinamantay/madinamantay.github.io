@@ -1,1 +1,0 @@
-# madinamantay.github.io
