@@ -103,14 +103,14 @@ a {
 body {
     background-color: var(--primary-color);
 }
-
+/* 
 .font-en {
     font-family: 'Kodchasan', sans-serif;
 }
 
 .font_ru{
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 /*-----------------------[ 2.Preloader CSS ]------------------------*/
 #loader-wrapper {
