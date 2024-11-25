@@ -9,7 +9,7 @@ const translations = {
     ru: {
         mad_name: "Мадина Амантаева",
         mad_intro: "Интро",
-        mad_welcome: "Хэллоу! Я Мадина, UX/UI дизайнер",
+        mad_welcome: "Привет! Я Мадина, UX/UI дизайнер",
         mad_description: "",
     }
 };
@@ -22,6 +22,7 @@ function changeLanguage(language) {
     // Меняем текст по ID элементов
     document.getElementById("mad_name").textContent = langData.mad_name;
     document.getElementById("mad_intro").textContent = langData.mad_intro;
+    document.getElementById("mad_welcome").textContent = langData.mad_welcome;
 
     // // Убираем текущий класс шрифта и добавляем новый
     // document.body.classList.remove('font-en', 'font-ru');
